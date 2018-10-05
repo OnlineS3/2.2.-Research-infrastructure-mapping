@@ -1,0 +1,53 @@
+
+/*
+    Sidebar stylesheet
+*/
+
+.r-menu {
+    padding: 9px 2.5em;
+    border: 1px solid #D6d6d6;
+    box-shadow: 0 3px 4px #ccc;
+}
+
+.r-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.r-menu button {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    background-color: #fff;
+    color: #111;
+    padding-left: 6px;
+}
+
+.r-menu ul li.disabled button,
+.r-menu ul li.disabled .fa {
+    color: #787878;
+}
+
+.r-menu ul li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.r-menu img {
+    background-color: #222;
+    margin-right: 8px
+}
+
+.r-menu .fa {
+    font-size: 17px;
+    color: #222;
+    margin-right: 12px
+}
+
+.map-filters-menu {
+  height: 280px;
+  max-height: none;
+}
+
+.select-filter {
+  height: 200px !important;
+  max-height: none !important;
+}

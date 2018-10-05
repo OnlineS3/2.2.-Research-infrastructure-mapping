@@ -1,0 +1,58 @@
+
+/* 
+    Font styles & auxiliary classes
+*/
+
+body, button, input, select, textarea {
+    font-family: tahoma,arial,sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #676767;
+    font-style: normal;
+    font-weight: 400;
+    clear: both;
+    margin: 15px 0 30px 0;
+}
+
+h3{
+   font-size: 20px;
+    color: #676767; 
+    font-style: italic;
+}
+
+legend {
+    font-size: 13px;
+}
+
+/* Style error messages */
+p.alert {
+    color: #565454;
+    font-weight: 600;
+    font-size: 12px;
+    border: 2px solid #fcc560;
+    width: 25rem;
+    margin: 3rem auto 0;
+    padding: 25px 25px;
+    display: table;
+    float: left    
+}
+
+.italic {
+    font-style: italic
+}
+
+.bold {
+    font-weight: 600
+}
+
+.cap {
+    text-transform: capitalize;
+}
+

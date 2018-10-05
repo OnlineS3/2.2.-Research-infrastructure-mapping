@@ -1,0 +1,66 @@
+
+/* 
+    style rules for main content 
+    of current project
+*/
+
+.content-area {
+    border: 1px solid #ddd;
+    margin: 0;
+}
+
+.sub-section {
+    padding: 35px 25px;
+    border: 1px solid #d1d1d1;
+    display: table;
+    width: 740px;
+    box-sizing: border-box
+}
+
+.sub-section:not(.sub-section:last-child) {
+    border-bottom: none
+}
+
+.sub-section .hr-secondary {
+    margin-top: 2rem
+}
+
+.upload-lb {
+    width: 15rem;
+}
+
+.import-file {
+    display: table;
+}
+
+.user-input {
+    text-align: left;
+}
+
+.tbl-style {
+    margin: 20px 0 0;
+    float: left;
+    display: inline-block;
+}
+
+.tbl-toolbar {
+    margin: -20px 1rem 10px 2rem;
+    float: right
+}
+
+.export-btn {
+    float: right
+}
+
+.export-btn .button {
+    margin: 0 6px;
+    display: inline-block
+}
+
+.sub-section .select-primary {
+    float: left
+}
+
+.tbl-img {
+    cursor: default;
+}
